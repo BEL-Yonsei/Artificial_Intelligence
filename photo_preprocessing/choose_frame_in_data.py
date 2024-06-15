@@ -40,3 +40,6 @@ def photo_capture(sour,dest):
     # Release the video capture object
     video_capture.release()
 
+# Example
+# will save as 0_10cm_+30deg_30Hz_1.png, 0_10cm_+30deg_30Hz_2.png, etc.
+# photo_capture('Data/Original/0_10cm_+30deg_30Hz.avi','Data/Processed/0_10cm_+30deg.png')
